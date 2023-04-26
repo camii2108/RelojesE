@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/landing.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Hiking Kings</title>
 </head>
 
@@ -16,11 +16,11 @@
         <div class="navbar">
             <img src="./images/logo.png" alt="" class="logo">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Equipment</a></li>
-                <li><a href="#">Trails</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="landing.html">Home</a></li>
+                <li><a href="index.html">Todos los productos</a></li>
+               <!--  <li><a href="#">Trails</a></li>
+                <li><a href="#">Contact</a></li> -->
+                <li><a href="carrito.html">Carrito</a></li>
             </ul>
         </div>
 
@@ -33,7 +33,12 @@
             </div>
         </div>
     </div>
-
+    <main>
+        <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+        <div id="contenedor-productos" class="contenedor-productos">
+            <!-- Esto se va a rellenar con JS -->
+        </div>
+    </main>
     <section class="product"> 
         <h2 class="product-category">best selling</h2>
         <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
@@ -161,6 +166,10 @@
             </div>
         </div>
     </section>
+
+     <footer>
+                <p class="texto-footer">© 2022 Carpi Coder</p>
+            </footer>
     
     <script src="js/landing.js"></script>
 </body>
